@@ -8,27 +8,16 @@ NOTE : NEVER DELETE FILES FROM THE HOST
 
 2. in the UI power-off the VM, this is not mandatory but will ensure all writes are committed, resulting image may be in dirty shutdown.
 
-  
-
 3. In the UI go to the VM boot volume and CLONE it
-
-  
 
 4. Copy the volume ID of the cloned volume
 
-  
-
 5. SSH into the node and type :
 
-  
-
 -   mancala volumes attach-to-host <volume-id > < node full internal dns name >
-    
 
 -   note : the full dns internal name can be find in UI > nodes . just add : <node-name>.node.strato
-    
--   for example :
-    
+--   for example :
 
 -   mancala volumes attach-to-host 81e2a68a-4f9b-410b-932a-e1fc1fddca43 stratonode0.node.strato
 
@@ -53,5 +42,5 @@ NOTE : NEVER DELETE FILES FROM THE HOST
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODU5NzE4NF19
+eyJoaXN0b3J5IjpbMTgwMTgwNTU4N119
 -->
