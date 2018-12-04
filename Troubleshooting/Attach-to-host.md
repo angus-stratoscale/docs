@@ -14,7 +14,7 @@ NOTE : NEVER DELETE FILES FROM THE HOST
  3. Note the volume ID of the cloned volume.
 
  4. SSH into the node and type the following command.
-	 5. mancala volumes attach-to-host <volume-id > < node full internal dns name >
+`mancala volumes attach-to-host <volume-id > < node full internal dns name >`
 
  5.   note : the full dns internal name can be find in UI > nodes . just add : <node-name>.node.strato
 --   for example :
@@ -42,6 +42,6 @@ NOTE : NEVER DELETE FILES FROM THE HOST
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjE4NDA1MCw2NDA2OTA3MzAsLTgwOD
+eyJoaXN0b3J5IjpbLTI3NTczNzQyMSw2NDA2OTA3MzAsLTgwOD
 czMjA0NSwxODAxODA1NTg3XX0=
 -->
