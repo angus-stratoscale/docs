@@ -2,7 +2,7 @@
 # Attach to host procedure
 Prerequisites: Verify you have enough free space on the host under stratonode:/mnt/mancala0 or similar, ensure you clean up any exported data immediately after it's been verified at the destination.
 
-Use zpool list in order to find a filesystem with enough free space
+Tip: Use zpool list in order to find a filesystem with enough free space
 
 NOTE : NEVER DELETE FILES FROM THE HOST
 
@@ -42,5 +42,6 @@ NOTE : NEVER DELETE FILES FROM THE HOST
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODczMjA0NSwxODAxODA1NTg3XX0=
+eyJoaXN0b3J5IjpbNjQwNjkwNzMwLC04MDg3MzIwNDUsMTgwMT
+gwNTU4N119
 -->
