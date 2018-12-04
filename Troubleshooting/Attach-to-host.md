@@ -6,9 +6,9 @@ Tip: Use zpool list in order to find a filesystem with enough free space
 
 NOTE : NEVER DELETE FILES FROM THE HOST
 
-2. in the UI power-off the VM, this is not mandatory but will ensure all writes are committed, resulting image may be in dirty shutdown.
+In the UI power-off the VM, this is not mandatory but will ensure all writes are committed, resulting image may be in dirty shutdown.
 
-3. In the UI go to the VM boot volume and CLONE it
+. In the UI go to the VM boot volume and CLONE it
 
 4. Copy the volume ID of the cloned volume
 
@@ -42,6 +42,6 @@ NOTE : NEVER DELETE FILES FROM THE HOST
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNjkwNzMwLC04MDg3MzIwNDUsMTgwMT
-gwNTU4N119
+eyJoaXN0b3J5IjpbMjAwNzY5NjM3LDY0MDY5MDczMCwtODA4Nz
+MyMDQ1LDE4MDE4MDU1ODddfQ==
 -->
